@@ -3,6 +3,9 @@
   
   <remote name="mitwo"
           fetch="git://github.com/" />
+  
+  <remote name="grondinm"
+          fetch="git://github.com" />
            
     <!-- CM replacements -->
   <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
@@ -17,5 +20,8 @@
 
   <!-- Vendor -->
   <project path="vendor/xiaomi" name="mitwo-dev/proprietary_vendor_xiaomi" remote="mitwo" revision="cm-10.1" />
+  
+  <!-- System Switch App -->
+  <project path="packages/apps/systemswitch" name="grondinm/android_app_dualbootswitch" remote="grondinm" revision="master" />
   
 </manifest>
