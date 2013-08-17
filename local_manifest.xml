@@ -10,6 +10,7 @@
     <!-- CM replacements -->
   <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project path="system/core" name="CyanogenMod/android_system_core" />
+  <remove-project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
 
   <!-- Local projects -->
   <project path="system/core" name="mitwo-dev/android_system_core" remote="mitwo" revision="cm-10.2" />
@@ -23,5 +24,9 @@
   
   <!-- System Switch App -->
   <project path="packages/apps/systemswitch" name="grondinm/android_app_dualbootswitch" remote="grondinm" revision="master" />
+  
+  <!-- AOSP Camera -->
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" remote="aosp" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" />
   
 </manifest>
