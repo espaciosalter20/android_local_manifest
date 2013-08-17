@@ -26,7 +26,7 @@
   <project path="packages/apps/systemswitch" name="grondinm/android_app_dualbootswitch" remote="grondinm" revision="master" />
   
   <!-- AOSP Camera -->
-  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" remote="aosp" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" />
+  <project path="packages/apps/Camera" name="platform/packages/apps/Camera" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
   
 </manifest>
