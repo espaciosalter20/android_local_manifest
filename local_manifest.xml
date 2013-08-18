@@ -11,6 +11,8 @@
   <remove-project path="hardware/qcom/audio-caf" name="CyanogenMod/android_hardware_qcom_audio-caf" />
   <remove-project path="system/core" name="CyanogenMod/android_system_core" />
   <remove-project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
+  <remove-project path="hardware/qcom/audio" name="CyanogenMod/android_hardware_qcom_audio" />
+  <remove-project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" />
 
   <!-- Local projects -->
   <project path="system/core" name="mitwo-dev/android_system_core" remote="mitwo" revision="cm-10.2" />
@@ -27,5 +29,8 @@
   
   <!-- AOSP Camera -->
   <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" remote="aosp" revision="refs/tags/android-4.3_r2.1" />
+  
+  <project path="hardware/qcom/media" name="mitwo-dev/platform_hardware_qcom_media" groups="qcom" remote="mitwo" revision="android-4.3-aries" />
+  <project path="hardware/qcom/audio" name="mitwo-dev/platform_hardware_qcom_audio" groups="qcom" remote="mitwo" revision="android-4.3-aries" />
   
 </manifest>
