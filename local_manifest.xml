@@ -26,7 +26,7 @@
   <project path="vendor/xiaomi" name="mitwo-dev/proprietary_vendor_xiaomi" remote="mitwo" revision="cm-10.2" />
   
   <!-- System Switch App -->
-  <project path="packages/apps/systemswitch" name="espaciosalter20/android_app_dualbootswitch" remote="grondinm" revision="master" />
+  <project path="packages/apps/systemswitch" name="espaciosalter20/android_app_dualbootswitch" remote="espaciosalter20" revision="master" />
   
   <!-- AOSP Audio libs from xiaomi -->
     <project path="hardware/qcom/media" name="mitwo-dev/platform_hardware_qcom_media" groups="qcom" remote="mitwo" revision="android-4.3-aries" />
