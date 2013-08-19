@@ -4,7 +4,7 @@
   <remote name="mitwo"
           fetch="git://github.com/" />
   
-  <remote name="grondinm"
+  <remote name="espaciosalter20"
           fetch="git://github.com" />
            
     <!-- CM replacements -->
@@ -20,13 +20,13 @@
   
 
   <!-- device -->
-  <project path="device/xiaomi/aries" name="grondinm/android_device_xiaomi_aries" remote="grondinm" revision="cm-10.2" />
+  <project path="device/xiaomi/aries" name="espaciosalter20/android_device_xiaomi_aries" remote="espaciosalter20" revision="cm-10.2" />
 
   <!-- Vendor -->
   <project path="vendor/xiaomi" name="mitwo-dev/proprietary_vendor_xiaomi" remote="mitwo" revision="cm-10.2" />
   
   <!-- System Switch App -->
-  <project path="packages/apps/systemswitch" name="grondinm/android_app_dualbootswitch" remote="grondinm" revision="master" />
+  <project path="packages/apps/systemswitch" name="espaciosalter20/android_app_dualbootswitch" remote="grondinm" revision="master" />
   
   <!-- AOSP Audio libs from xiaomi -->
     <project path="hardware/qcom/media" name="mitwo-dev/platform_hardware_qcom_media" groups="qcom" remote="mitwo" revision="android-4.3-aries" />
